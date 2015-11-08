@@ -27,6 +27,7 @@ body {
     visibility: hidden;
 }
 
+
 /* Reusable Components */
 .row {
     max-width: 1140px;
@@ -41,7 +42,8 @@ section {
     padding: 1%;
 }
 
-/* ----- HEADINGS ----- */
+
+/* ----- Headings ----- */
 h1,
 h2,
 h3 {
@@ -81,7 +83,8 @@ h2:after {
     margin-top: 30px;
 }
 
-/* ----- PARAGRAPHS ----- */
+
+/* ----- Paragraphs ----- */
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -94,7 +97,7 @@ h2:after {
 }
 
 
-/* ----- ICONS ----- */
+/* ----- Icons ----- */
 .icon-big {
     font-size: 350%;
     display: block;
@@ -116,7 +119,8 @@ h2:after {
     margin-top: -5px;
 }
 
-/* ----- LINKS ----- */
+
+/* ----- Links ----- */
 
 a:link,
 a:visited {
@@ -133,6 +137,7 @@ a:active {
     color: #555;
     border-bottom: 1px solid transparent;
 }
+
 
 /* ---- Header ---- */
 header {
@@ -168,6 +173,7 @@ header {
     float: left;
     margin: 5px 0;
 }
+
 
 /* ---- Meals ---- */
 .section-meals{
@@ -208,4 +214,69 @@ header {
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
+}
+
+
+/* Features */
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
+/* How it works section */
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box {
+    margin-top: 30px;
+}
+
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    float: left;
+    padding: 5px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
